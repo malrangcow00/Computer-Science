@@ -1,5 +1,6 @@
 ### 현행 시스템 파악(Current System Analysis / Existing System Analysis)
-<table border="1">
+
+<table>
     <tr>
         <th>단계</th>
         <th>현행 시스템</th>
