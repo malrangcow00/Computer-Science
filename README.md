@@ -1,4 +1,12 @@
-# 소프트웨어 설계
-- [소프트웨어 생명 주기](/Software-Design/Software-Life-Cycle)
-- [소프트웨어 공학](/Software-Design/Software-Engineering)
+# Software Design
+- [Software Life Cycle](/Software-Design/Software-Life-Cycle)
+- [Software Engineering](/Software-Design/Software-Engineering)
+- [Waterfall Model](/Software-Design/Waterfall-Model)
+- [Spiral Model](/Software-Design/Spiral-Model)
+- [Agile Model](/Software-Design/Agile-Model)
+- [Current System Analysis](/Software-Design/Current-System-Analysis)
+- [Operating System](/Software-Design/Operating-System)
+- [Database Management System](/Software-Design/Database-Management-System)
+- [Web Application Server](/Software-Design/Web-Application-Server)
+- [Requirements](/Software-Design/Requirements)
 - 
