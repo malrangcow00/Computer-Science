@@ -1,5 +1,5 @@
 # Software Design
-- [Software Development Life Cycle](/Software-Design/Software_Development_Life_Cycle)
+- [Software Development Life Cycle](/Software-Design/Software_Development_Life_Cycle.md)
     - [Process](/Software-Design/Software_Development_Life_Cycle_Model_Process.md)
     - [Models](/Software-Design/Software_Development_Life_Cycle_Models.md)
       - [Waterfall Model](/Software-Design/Waterfall-Model.md)
