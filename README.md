@@ -1,5 +1,7 @@
 # Software Design
-- [Software Life Cycle](/Software-Design/Software-Life-Cycle.md)
+- [Software Development Life Cycle](/Software-Design/Software_Development_Life_Cycle)
+    - [Process](/Software-Design/Software_Development_Life_Cycle/Software_Development_Life_Cycle_Model_Process)
+    - [Models](Software_Development_Life_Cycle_Models)
 - [Software Engineering](/Software-Design/Software-Engineering.md)
 - [Waterfall Model](/Software-Design/Waterfall-Model.md)
 - [Spiral Model](/Software-Design/Spiral-Model.md)
@@ -10,5 +12,3 @@
 - [Web Application Server](/Software-Design/Web-Application-Server.md)
 - [Requirements](/Software-Design/Requirements.md)
 
-# Computational Thinking
-- 
