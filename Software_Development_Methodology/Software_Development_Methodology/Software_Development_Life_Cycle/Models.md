@@ -6,7 +6,7 @@
     </tr>
     <tr>
         <td rowspan="2">
-            <a href="Waterfall-Model.md">
+            <a href="Software_Development_Life_Cycle_Models/Waterfall-Model.md">
             폭포수 모델<br>
             (Waterfall Model)
             </a>
@@ -27,7 +27,7 @@
         <td colspan="2">고객이 요구한 주요 기능을 프로토타입으로 구현하여, 고객의 피드백을 반영하여 소프트웨어를 만들어가는 모델</td>
     </tr>
     <tr>
-        <td rowspan="2"><a href="Spiral-Model.md">
+        <td rowspan="2"><a href="Software_Development_Life_Cycle_Models/Spiral-Model.md">
             나선형 모델<br>
             (Spiral Model)</a>
         </td>
