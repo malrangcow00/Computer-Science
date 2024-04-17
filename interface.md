@@ -96,9 +96,30 @@
   - 마크업 언어가 실제 표시되는 방법을 기술하는 언어
   - 운영체제나 사용 프로그램과 관계없이 글자 크기, 글자체, 줄 간격, 색상 등을 자유롭게 선택할 수 있는 스타일 시트
 
-### AJAX 동작 원리
 ```mermaid
-graph LR
-A(입력)-->B[연산]
-B-->C(출력)
+---
+title: AJAX 동작 원리
+---
+stateDiagram-v2
+  Client --> Server
+  Server --> Client
+
+  state Client {
+    UI --> fir
+    fir --> UI
+  }
+  state Server {
+    Web_Server --> sec
+    sec --> Web_Server
+  }
+```
+
+```mermiad
+graph TD
+    A[사용자 인터페이스] -->|사용자 요청| B[HTTP Request 요청/응답]
+    B-->C[백엔드 서버]
+    C -->|데이터베이스 서비스 쿼리| D[데이터베이스]
+    C -->|HTML, JSON 응답| A
+    D -->|쿼리 결과| C
+    A -->|HTML 렌더링| E[화면 표시]
 ```
