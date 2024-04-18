@@ -182,5 +182,35 @@ HTTP POST, http://choonsikworld/users
 ### REST Resource
 - REST는 모든 것을 리소스, 즉 명사로 표현을 하며, 각 세부 리소스에는 id를 붙인다
 - 사용자라는 리소스 타입을 "http://choonsikworld/users" 라고 정의했다면, malrangcow00라는 name을 갖는 리소스는 "http://choonsikworld/users/malrangcow00" 라는 형태로 정의된다
-<table>
-</table>
+
+1. 사용자 생성  
+HTTP Post, "http://choonsikworld/users"
+```json
+{
+  "name": "malrangcow",
+  "age": 20
+}
+```
+"http://choonsikworld/users" 라는 리소스를 이름은 "malrangcow", 나이는 20이라는 내용(메시지)으로 HTTP POST 메서드를 이용해서 생성
+2. 사용자 조회
+HTTP Get, "http://choonsikworld/users/malrangcow"   
+
+생성된 리소스 중에서 "http://choonsikworld/users" 라는 사용자 리소스에서, id가 "malrangcow"인 사용자 정보를 조회해오는 방법으로 HTTP GET 메서드를 이용
+3. 사용자 수정
+HTTP Put, "http://choonsikworld/users/malrangcow"
+```json
+{
+  "name": "malrangcow",
+  "age": 18
+}
+```
+생성된 리소스 중에서 "http://choonsikworld/users" 라는 사용자 리소스에서, id가 "malrangcow"인 사용자 정보의 "age"를 21으로 수정하는 방법으로 HTTP PUT 메서드를 이용
+4. 사용자 삭제
+HTTP Delete, "http://choonsikworld/users/malrangcow"
+```json
+{
+  "name": "malrangcow",
+  "age": 18
+}
+```
+생성된 리소스 중에서 "http://choonsikworld/users" 라는 사용자 리소스에서, id가 "malrangcow"인 사용자 정보를 삭제하는 방법으로 HTTP DELETE 메서드를 이용
