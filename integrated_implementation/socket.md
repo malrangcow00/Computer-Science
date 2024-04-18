@@ -28,29 +28,7 @@ stateDiagram-v2
     Client.send() --> Server.recv()
     Client.close() --> End
 ```
-
-```mermaid
----
-title: 서버와 클라이언트 소켓 연결 방식
----
-graph RL
-    subgraph Server
-        s1("socket()")
-        s2("bind()")
-        s3("accept()")
-        s4("send()")
-        s5("recv()")
-        End
-    end
-    subgraph Client 
-        c1("socket()")
-        c2("connect()")
-        c3("recv()")
-        c4("send()")
-        c5("close()")
-    end
-    c2 --> |"연결 요청"|s3
-    s4 --> |"데이터 송수신"|c3
-%%    c4 --> |"데이터 전송"|s5
-    c5 --> |종료|End
-```
+1. 서버 소켓과 클라이언트 소켓을 만듦(socket())
+2. 서버 소켓은 로컬 IP를 가지고 포트를 열고(bind()), 클라이언트 연결을 기다림(listen())
+3. 클라이언트 소켓은 IP 주소를 이용해 목적지 호스트를 찾아내고 포트를 이용해 통신 접속점을 찾아내서 연결을 만듦(connect())
+4. 서버 소켓이 연결을 수락하면(accept()), 포트를 이용해 데이터를 주고받음(send(), recv())
